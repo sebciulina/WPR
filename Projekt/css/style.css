@@ -1,0 +1,112 @@
+body {
+    background-color: grey;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+  
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+  
+.topnav a.active {
+    background-color: #000000;
+    color: white;
+}
+.topnav a.right {
+    float: right;
+}
+.title {
+    text-align: center;
+    padding: 20%;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.bg {
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("../img/bg.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.content {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.content h2 {
+    text-align: center;
+}
+#indexcontent {
+    text-align: center;
+}
+.maintext {
+    box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 3px 3px 20px 0px rgba(0,0,0,0.36);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 15px;
+}
+.loginform {
+    margin-top: 10%;
+    text-align: center;
+}
+.loginform a:hover {
+    color: white;
+}
+.loginform .reglink {
+    color: black;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+.foota a {
+    color: #f2f2f2;
+}
+.foota {
+    letter-spacing: 10px;
+    margin-top: 1%;
+}
+.postform {
+    text-align: center;
+}
+.postform #inputtitle {
+    width: 75%;
+}
+.postform textarea {
+    resize: none;
+    width: 75%;
+    height: 200px;
+}
+
+.posts .row {
+    margin-bottom: 3%;
+}
+
+.posts p {
+    float: right;
+}
